@@ -22,12 +22,66 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:layout_width="22dp"
+            android:id="@+id/t_resCodeTimeA"
+            android:layout_width="18dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="140dp"
+            android:layout_marginLeft="130dp"
             android:layout_marginTop="200dp"
             android:textSize="25dp"
             android:text=""/>
+
+        <TextView
+            android:id="@+id/t_resCodeTimeB"
+            android:layout_width="18dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-18dp"
+            android:layout_marginTop="200dp"
+            android:textSize="25dp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/t_resCodeTimeC"
+            android:layout_width="26dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-19dp"
+            android:layout_marginTop="200dp"
+            android:textSize="25dp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/t_resCodeTimeD"
+            android:layout_width="13dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-18dp"
+            android:layout_marginTop="200dp"
+            android:text=""
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/t_resPerson1"
+            android:layout_width="15dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="200dp"
+            android:textSize="25dp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/t_resPerson2"
+            android:layout_width="15dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-15dp"
+            android:layout_marginTop="200dp"
+            android:textSize="25dp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/t_resPerson3"
+            android:layout_width="9dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-15dp"
+            android:layout_marginTop="200dp"
+            android:text=""
+            android:textSize="25dp" />
 
         <TextView
         android:id="@+id/t_printSeat_page1_1"
@@ -271,16 +325,16 @@
             android:textSize="25dp"
             android:text=""/>
 
+        <!-- page2 좌석 출력 -->
+
         <TextView
             android:id="@+id/t_printSeat_page1_71"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginLeft="-31dp"
             android:layout_marginTop="200dp"
-            android:textSize="25dp"
-            android:text=""/>
-
-        <!-- page2 좌석 출력 -->
+            android:text=""
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/t_printSeat_page2_1"
@@ -361,6 +415,15 @@
             android:layout_marginTop="200dp"
             android:textSize="25dp"
             android:text=""/>
+
+        <TextView
+            android:id="@+id/t_printSeat_page2_71"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginTop="200dp"
+            android:text=""
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/t_printSeat_page2_35"
@@ -524,15 +587,6 @@
             android:textSize="25dp"
             android:text=""/>
 
-        <TextView
-            android:id="@+id/t_printSeat_page2_71"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="-30dp"
-            android:layout_marginTop="200dp"
-            android:textSize="25dp"
-            android:text=""/>
-
 
         <!-- page3 좌석 출력 -->
 
@@ -602,7 +656,7 @@
             android:id="@+id/t_printSeat_page3_86"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="-30dp"
+            android:layout_marginLeft="-31dp"
             android:layout_marginTop="200dp"
             android:textSize="25dp"
             android:text=""/>
@@ -620,7 +674,7 @@
             android:id="@+id/t_printSeat_page3_35"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="-30dp"
+            android:layout_marginLeft="-31dp"
             android:layout_marginTop="200dp"
             android:textSize="25dp"
             android:text=""/>
